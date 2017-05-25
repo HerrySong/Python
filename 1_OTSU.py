@@ -19,7 +19,7 @@ plt.subplot(133), plt.imshow(thresh1, "gray")
 plt.title("otsu image"), plt.xticks([]), plt.yticks([])
 plt.show()
 
-print "opencv otsu得到 阈值为："+str(ret1)
+
 
 '''
 自己编写的单阈值otsu
@@ -48,7 +48,7 @@ def otsu_way(img_gray,th_begin=0,th_end=256,th_step=1):
           suitable_th = threshold
    return suitable_th
 
-# 输出计算的阈值
+print "opencv otsu得到 阈值为："+str(ret1)
 print "自己编写 otsu阈值为："+str(otsu_way(GrayImage))
 
 
