@@ -10,6 +10,6 @@ plt.subplot(221), plt.imshow(image, "gray")
 plt.title("source image"), plt.xticks([]), plt.yticks([])
 
 plt.subplot(222), plt.hist(image.ravel(), 256)
-plt.title("Histogram"), plt.xticks([]), plt.yticks([])
+plt.title("Histogram")
 
 plt.show()
