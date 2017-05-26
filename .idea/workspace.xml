@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81496168-0aa3-4965-b141-d3f82feb986f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCREEN/1-otsu.png" afterPath="" />
+    <list default="true" id="81496168-0aa3-4965-b141-d3f82feb986f" name="Default" comment="otsu Finish">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1_OTSU.py" afterPath="$PROJECT_DIR$/1_OTSU.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -376,7 +374,14 @@
       <option name="project" value="LOCAL" />
       <updated>1495788845064</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="otsu Finish">
+      <created>1495790403250</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1495790403250</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -412,7 +417,8 @@
     <MESSAGE value="screen pictures send" />
     <MESSAGE value="DetectThreshold send" />
     <MESSAGE value="DetectThreshold Finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="DetectThreshold Finish" />
+    <MESSAGE value="otsu Finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="otsu Finish" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
