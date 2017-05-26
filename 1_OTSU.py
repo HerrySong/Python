@@ -5,18 +5,25 @@ from matplotlib import pyplot as plt
 
 Image = plt.imread('lena.jpg') #cv2的读取图片会导致通道错误,采取pyplot的读取
 GrayImage= cv2.cvtColor(Image,cv2.COLOR_BGR2GRAY) #灰度化图像
+blurred = cv2.GaussianBlur(GrayImage, (5, 5), 0)
 
 # 采取opencv库中的otsu算法,ret1接收返回阈值,thresh1接收处理后图像
 ret1,thresh1=cv2.threshold(GrayImage,0,255,cv2.THRESH_OTSU)
+ret2,thresh2=cv2.threshold(blurred,0,255,cv2.THRESH_OTSU)
 '''
 显示图像
 '''
-plt.subplot(131), plt.imshow(Image)
+plt.subplot(231), plt.imshow(Image)
 plt.title("source image"), plt.xticks([]), plt.yticks([])
-plt.subplot(132), plt.imshow(GrayImage, "gray")
+plt.subplot(232), plt.imshow(GrayImage, "gray")
 plt.title("gray image"), plt.xticks([]), plt.yticks([])
-plt.subplot(133), plt.imshow(thresh1, "gray")
+plt.subplot(233), plt.imshow(blurred, "gray")
+plt.title("gsblur image"), plt.xticks([]), plt.yticks([])
+plt.subplot(234), plt.imshow(thresh1, "gray")
 plt.title("otsu image"), plt.xticks([]), plt.yticks([])
+plt.subplot(235), plt.imshow(thresh2, "gray")
+plt.title("blurred otsu image"), plt.xticks([]), plt.yticks([])
+
 plt.show()
 
 
