@@ -17,8 +17,8 @@
       <file leaf-file-name="n_OTSU.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/n_OTSU.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="164" column="10" lean-forward="true" selection-start-line="164" selection-start-column="10" selection-end-line="164" selection-end-column="10" />
+            <state relative-caret-position="1107">
+              <caret line="164" column="10" lean-forward="false" selection-start-line="164" selection-start-column="10" selection-end-line="164" selection-end-column="10" />
               <folding>
                 <element signature="e#14#24#0" expanded="true" />
               </folding>
@@ -386,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1495791139968</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="project over">
+      <created>1495878810019</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1495878810019</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -613,8 +620,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/n_OTSU.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="164" column="10" lean-forward="true" selection-start-line="164" selection-start-column="10" selection-end-line="164" selection-end-column="10" />
+        <state relative-caret-position="1107">
+          <caret line="164" column="10" lean-forward="false" selection-start-line="164" selection-start-column="10" selection-end-line="164" selection-end-column="10" />
           <folding>
             <element signature="e#14#24#0" expanded="true" />
           </folding>
