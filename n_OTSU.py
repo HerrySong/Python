@@ -151,12 +151,10 @@ for j in range(len(Var)):
         k = getTh(Next[j], m)
 print k
 
-plt.subplot(131), plt.imshow(imagesrc, "gray")
+plt.subplot(121), plt.imshow(imagesrc, "gray")
 plt.title("source image"), plt.xticks([]), plt.yticks([])
-plt.subplot(132), plt.hist(imagesrc.ravel(), 256)
-plt.title("Histogram"), plt.xticks([]), plt.yticks([])
 th1 = genetic_thres(gray, k, m)
-plt.subplot(133), plt.imshow(th1, "gray")
+plt.subplot(122), plt.imshow(th1, "gray")
 titleName = ''
 for i in range(1, len(k)-1):
     titleName = titleName + str(k[i]) + ', '
